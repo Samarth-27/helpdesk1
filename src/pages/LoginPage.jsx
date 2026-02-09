@@ -95,7 +95,7 @@ const LoginPage = () => {
                   id="email"
                   name="email"
                   className="input"
-                  placeholder="Enter your email"
+                  placeholder="demo@helpdesk.com"
                   value={formData.email}
                   onChange={handleChange}
                   required
@@ -113,7 +113,7 @@ const LoginPage = () => {
                   id="password"
                   name="password"
                   className="input"
-                  placeholder="Enter your password"
+                  placeholder="password123"
                   value={formData.password}
                   onChange={handleChange}
                   required
